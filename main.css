@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {box-sizing: border-box;}
+
+body {
+	background-image: url("images/GameLibrary LogoColor.png");
+}
+.container{width:1200px;}
+
+
+.flex-container{
+	display: flex;
+}
