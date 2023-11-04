@@ -1,31 +1,32 @@
 @charset "utf-8";
 /* CSS Document */
 
-* {box-sizing: border-box;}
+*{box-sizing: border-box;}
 
 body {
 	background-image: url("images/GameLibrary LogoColor.png");
 }
+@media screen and (min-width: 480px)
+
 .container{width:1000px; 
 margin: 0 auto;
 }
-
-
 .flex-container{
 	display: flex;
 }
 .infoColumn
 {display: flex; 
 	flex-direction: column; 
-	flex-grow: 1 }
+	flex-grow: 1
+}
 
 .bottomContents
 {display: flex;
-flex-direction: column; background-color: gold} 
+flex-direction: column; background-color: black; color: silver} 
 
 .bottemContents h3{
 	
-	text-align: center; color: silver;
+	text-align: center;;
 		}
 
 .showLinks
