@@ -5,19 +5,26 @@
 <title>Untitled Document</title>
 <link type="text/css" rel="stylesheet" href="main.css">
 </head>
-
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
 <body>
 	<div class="container">
+		<header></header>
 	<div class="contentTop flex-container">
-		<div class="Makoto" style="flex-grow: 2"><img src="images/Reload_Makoto_P3.webp" style="width: 100%"></div>
-		<div class="infoColumn" style="flex-grow: 1"></div>
-			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloremque omnis natus, illum molestias ratione iure eaque labore dicta nostrum, veritatis culpa temporibus veniam architecto, repudiandae aliquam quam cum! Nemo ipsam autem harum laboriosam excepturi ab quos quia vel, nobis explicabo rerum voluptate ratione molestiae quas ipsum unde similique, nisi beatae dolor, facilis quis ducimus atque maxime culpa. Repellendus delectus modi dolores? Expedita quidem quo nam dolores id quisquam eligendi unde, doloremque fugiat ipsam, aliquam aut eaque, dicta. Consectetur rem neque architecto aliquid omnis harum, error quia voluptate esse. Qui tempore nulla culpa repudiandae veritatis ratione iure nostrum, necessitatibus, quos.</div>
+		<div class="Games" style="flex-grow: 2"><img src="images/Guillory_collection.jpg" alt="Games" style="width: 600%;"></div>
+		<div class="infoColumn" style="flex-grow: 1" flex-direction: column></div>
+			<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus doloremque omnis natus, illum molestias ratione iure eaque labore dicta nostrum, veritatis culpa temporibus veniam architecto, repudiandae aliquam quam cum! Nemo ipsam autem harum laboriosam excepturi ab quos quia vel, nobis explicabo rerum voluptate ratione molestiae quas ipsum unde similique, nisi beatae dolor, facilis quis ducimus atque maxime culpa. Repellendus delectus modi dolores? Expedita quidem quo nam dolores id quisquam eligendi unde, doloremque fugiat ipsam, aliquam aut eaque, dicta. Consectetur rem neque architecto aliquid omnis harum, error quia voluptate esse. Qui tempore nulla culpa repudiandae veritatis ratione iere nostrum, necessitatibus, quos.</div>
 			<div>Repellendus delectus modi dolores? Expedita quidem quo nam dolores id quisquam eligendi unde, doloremque fugiat ipsam, aliquam aut eaque, dicta. Consectetur rem neque architecto aliquid omnis harum, error quia voluptate esse. Qui tempore nulla culpa repudiandae veritatis ratione iure nostrum, necessitatibus, quos.</div>
 			<div>Repellendus delectus modi dolores? Expedita quidem quo nam dolores id quisquam eligendi unde, doloremque fugiat ipsam, aliquam aut eaque, dicta. Consectetur rem neque architecto aliquid omnis harum, error quia voluptate esse. Qui tempore nulla culpa repudiandae veritatis ratione iure nostrum, necessitatibus, quos.</div>
 		</div>
 	
 	<div class="bottomContents">
-		<div class="displayTitle"><h3>Title</h3></div>
+		<div class="displayTitle"><h3>Welcome to the Game Library!</h3></div>
 		
 		
 		
@@ -30,7 +37,55 @@
 		<div class="contentLinks">Gaming</div>
 		<div class="contentLinks">Gaming</div>
 		</div>
-	
+	<div id="accordion">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+		
 	</div>
 </body>
 </html>
