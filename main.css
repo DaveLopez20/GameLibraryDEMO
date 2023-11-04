@@ -8,8 +8,8 @@ body {
 }
 @media screen and (min-width: 480px)
 
-.container{width:1000px; 
-margin: 0 auto;
+.container {width:1000px; 
+	margin: 0 auto;
 }
 .flex-container{
 	display: flex;
