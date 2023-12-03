@@ -4,12 +4,22 @@
 <meta charset="utf-8">
 <title>Fighting Page</title>
 <link type="text/css" rel="stylesheet" href="main.css">
+<link type="text/css" rel="stylesheet" href="assests/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="assests/jquery-ui.theme.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
 </head>
 
 <body>
 	<div class="container">
 	<div class="contentTop flex-container">
-		<div class="Makoto" style="flex-grow: 2"><img src="images/ryu_street_fighter.png" alt="Ryu" style="width: 100%"></div>
+		<div class="Ryu" style="flex-grow: 2"><img src="images/ryu_street_fighter.png" alt="Ryu" style="width: 100%"></div>
 		<div class="infoColumn" style="flex-grow: 1"></div>
 			<div><h1>The Fighting game genre is known to be the aggressiveness of the genres. It's mostly you, the player, versus another player or a bot. The genre can give you many memories, like a great victory or a sufferable defeat. The characters you play can vary to people, creatures, bots, and many more. Like the First-Person Shooter Genre, it has a lot of tournaments that people attend. Stuff like that can bring people together to fight or to spectate the fight.</h1></div>
 		
@@ -21,15 +31,33 @@
 		
 		
 		</div>
-	<div class="showLinks">
-		<div class="contentLinks">Street Fighter Series</div>
-		<div class="contentLinks">Tekken Series</div>
-		<div class="contentLinks">Super Smash Bros</div>
-		<div class="contentLinks">Dragon Ball Z Budokai Tenkaichi 3</div>
-		<div class="contentLinks">Marvel vs Capcom 2 New Age of Heroes</div>
-		<div class="contentLinks">Mortal Kombat Series</div>
-		</div>
+	<div id="accordion">
+  <h3>Related Games to Genre</h3>
+  <div>
+    <p> 
+    This a few games that are related to this genre. The Street Fighter Series, Tekken Series, Super Smash Bros, Dragon Ball Z Budokai Tenkaichi 3, Marvel vs Capcom 2 New Age of Heroes, and Mortal Kombat Series
+    </p>
+  </div>
+  <h3>Recommendations</h3>
+  <div>
+    <p>
+    Do you want to play a game where you and your friend have fun fighting each other using Video Game Characters and Comic Book characters? Then there is Marvel vs Capcom 2. It is one of the coolest fighting game crossovers. It has a lot of characters that represent both Marvel and Capcom. It is known to be one of the best-known fighting games among fans. Characters have different assists like attack or support. What’s even better are the combos you can pull off with the characters you have.
+    </p>
+  </div>
+  <h3>Random Fun Facts</h3>
+  <div>
+    <p>
+    Here are somethings you might not know about.
+    </p>
+    <ul>
+      <li>In Street Fighter 3 New Generation, The Ryu and Ken were never planned to come back since this game was to follow the new fighters.</li>
+      <li>In the original arcade of Ultimate Mortal Kombat 3 the character Ermac was never planned but was made due to fan images saying Ermac Wins in the original Mortal Kombat 3. </li>
+     
+    </ul>
+  </div>
 	
+</div>
+		
 	</div>
 </body>
 </html>

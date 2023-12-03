@@ -4,6 +4,16 @@
 <meta charset="utf-8">
 <title>Horror Page</title>
 <link type="text/css" rel="stylesheet" href="main.css">
+<link type="text/css" rel="stylesheet" href="assests/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="assests/jquery-ui.theme.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
 </head>
 
 <body>
@@ -20,15 +30,33 @@
 		
 		
 	  </div>
-	<div class="showLinks">
-		<div class="contentLinks">Resident Evil Series</div>
-		<div class="contentLinks">Five Nights at Freddy's Series</div>
-		<div class="contentLinks">The Walking Dead (Telltale) </div>
-		<div class="contentLinks">Silent Hills Series</div>
-		<div class="contentLinks">Clock Tower</div>
-		<div class="contentLinks">Dead By Daylight</div>
-	  </div>
+	<div id="accordion">
+  <h3>Related Games to Genre</h3>
+  <div>
+    <p> 
+    This a few games that are related to this genre. The Resident Evil Series, Five Nights at Freddy's Series, The Walking Dead Series (Telltale), Silent Hills Series, Clock Tower, and Dead By Daylight
+    </p>
+  </div>
+  <h3>Recommendations</h3>
+  <div>
+    <p>
+    Do you want to play a game where your choices matter while dealing with the zombie apocalypse? Then, play The Walking Dead (Telltale) Season One. It is one of the most heart-wrenching games of all time. It’s a five-episode story,  gameplay is a point-and-click adventure, and the choices you make can affect the story of the game.
+    </p>
+  </div>
+  <h3>Random Fun Facts</h3>
+  <div>
+    <p>
+    Here are somethings you might not know about.
+    </p>
+    <ul>
+      <li>In the Walking Dead, When Lee was shot you can hear his final breath but it turns out that noise was the voice actor crying. The name of Lee's voice actor is Dave Fennoy.</li>
+      <li>The NES game Dr. Jekyll and Mr. Hyde actually has two endings the first one was a normal ending while the second ending involved a final boss as Mr. Hyde. </li>
+      <li>The first Resident Evil game was actually made with the same engine as the game of Goof Troop.</li>
+    </ul>
+  </div>
 	
+</div>
+		
 	</div>
 </body>
 </html>
